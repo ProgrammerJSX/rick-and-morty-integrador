@@ -1,0 +1,48 @@
+.cardContainer{
+    background-color: red;
+    width: 320px;
+    height: 400px;
+    overflow: hidden ;
+ /*   overflow: hidden ; */
+}
+
+.header{
+    position: relative;
+}
+
+.wrapperButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wrapperText{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.name{
+    position: absolute;
+    width: 200px;
+    background-color: blue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: -50px;
+}
+
+img{
+    width: 100%;
+}
+
+.statusalive{
+    color: green;
+}
+
+.statusdead{
+    color: pink;
+}
